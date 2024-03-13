@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 807b2a84-ceea-42f1-a840-f7348466c34d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 151.13 73.66) (size 38.1 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6fd7ee50-984e-4563-9182-6f49cc30216d)
+    (property "Sheetname" "Leadout" (at 151.13 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Leadout.kicad_sch" (at 151.13 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AM3358_SBC"
+        (path "/807b2a84-ceea-42f1-a840-f7348466c34d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 100.33 73.66) (size 38.1 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9121471b-59ae-4d9c-9adf-5a760881814b)
+    (property "Sheetname" "Power" (at 100.33 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 100.33 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AM3358_SBC"
+        (path "/807b2a84-ceea-42f1-a840-f7348466c34d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 151.13 99.06) (size 38.1 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9da1a3b2-90b1-48fb-ae7a-1a2a7cc0ec5f)
+    (property "Sheetname" "Memory" (at 151.13 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Memory.kicad_sch" (at 151.13 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AM3358_SBC"
+        (path "/807b2a84-ceea-42f1-a840-f7348466c34d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 100.33 99.06) (size 38.1 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bd64f5bf-b7be-4ca6-8999-dab9467958de)
+    (property "Sheetname" "Processor" (at 100.33 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Processor.kicad_sch" (at 100.33 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AM3358_SBC"
+        (path "/807b2a84-ceea-42f1-a840-f7348466c34d" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
